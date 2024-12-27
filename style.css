@@ -8,13 +8,14 @@
 .container {
     width: 100%;
     min-height: 100vh; /* Ensure the container covers the viewport height */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url('background.png');
+    background-image: url('imagepath.jpg'); /* Replace with your image path */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     padding: 0 8%;
 }
+
 
 .navbar {
     height: 80px;
